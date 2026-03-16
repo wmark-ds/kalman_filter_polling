@@ -1,0 +1,5 @@
+.idea
+.DS_Store
+/non_kalman
+__pycache__/
+vox_populi_kalman.xlsx
