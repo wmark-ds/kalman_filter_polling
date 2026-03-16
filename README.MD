@@ -9,3 +9,10 @@ As a source of data I rely on Vox Populi.
 I also add weights for pollsters. Weights are calculated based on their past polling performance for the 2024, 2022, 2019 and 2018 elections.
 
 Graphs are created using matplotlib. For smoothing I use LOESS. 
+
+
+![Kalman graph](Graphs/kalman_nyers.png)
+![Kalman LOESS graph](Graphs/kalman_loess.png)
+
+
+
