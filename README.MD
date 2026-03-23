@@ -1,16 +1,13 @@
-### Hi! 
+## Overview
+This projects impelments a Kalman filter-based model to aggregate election polling data. Including the weighing of pollsters based on their past performance.  
 
-This small repository features my implementation of a 1D random walk Kalman Filter for Hungarian poll results.
 
-My goal was to try a better estimator of current public opinion results than a simple moving average. I was inspired to use a Kalman Filter by Politico, who uses it for their Poll of Polls results.
+## How and why
+It features a 1D random walk Kalman Filter for Hungarian poll results. Combined with smoothing to create trend visualizations that hopefully better capture the underlying dynamics, then just relying on one or two pollsters. I was inspired to use a Kalman Filter by Politico, who uses it for their Poll of Polls results.
 
 As a source of data I rely on Vox Populi. 
 
-I also add weights for pollsters. Weights are calculated based on their past polling performance for the 2024, 2022, 2019 and 2018 elections.
-
-Graphs are created using matplotlib. For smoothing I use LOESS. 
-
-
+## Results
 ![Kalman graph](Graphs/kalman_nyers.png)
 ![Kalman LOESS graph](Graphs/kalman_loess.png)
 
